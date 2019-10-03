@@ -14,8 +14,8 @@
 
 export default function convertBytesToHuman(bytes) {
   let out = "false"
-  if (typeof(bytes) == "number" && bytes != Infinity) {
-    if (bytes < 0 || String(bytes) == "NaN" && Math.round(bytes) == bytes) {
+  if (typeof(bytes) == "number" && Number.isFinite(bytes) && Number.isInteger(bytes)) {
+    if (bytes < 0) {
       return out
     }
     let i = 0
