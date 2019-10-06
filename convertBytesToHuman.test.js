@@ -27,7 +27,7 @@ test('Возвращает false для неправильного типа да
 test('Возвращает корректное значение для чисел', () => {
   expect(convertBytesToHuman(0)).toBe("0 B")
   expect(convertBytesToHuman(9007199254740991)).toBe("8 PB")
-  expect(convertBytesToHuman(543)).toBe("542 B")
+  expect(convertBytesToHuman(543)).toBe("543 B")
   expect(convertBytesToHuman(123456789)).toBe("117.74 MB")
   expect(convertBytesToHuman(123123123)).toBe("117.42 MB")
   expect(convertBytesToHuman(1073741824)).toBe("1 GB")
