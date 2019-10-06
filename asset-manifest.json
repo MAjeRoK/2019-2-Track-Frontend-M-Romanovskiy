@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/2019-2-Track-Frontend-M-Romanovskiy/static/css/main.b4eae362.chunk.css",
+    "main.js": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/main.7fe08ebb.chunk.js",
+    "main.js.map": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/main.7fe08ebb.chunk.js.map",
+    "runtime-main.js": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/runtime-main.132eff57.js",
+    "runtime-main.js.map": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/runtime-main.132eff57.js.map",
+    "static/js/2.273bc32e.chunk.js": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/2.273bc32e.chunk.js",
+    "static/js/2.273bc32e.chunk.js.map": "/2019-2-Track-Frontend-M-Romanovskiy/static/js/2.273bc32e.chunk.js.map",
+    "index.html": "/2019-2-Track-Frontend-M-Romanovskiy/index.html",
+    "precache-manifest.acc42aae3a7017c1fb49a499322ae666.js": "/2019-2-Track-Frontend-M-Romanovskiy/precache-manifest.acc42aae3a7017c1fb49a499322ae666.js",
+    "service-worker.js": "/2019-2-Track-Frontend-M-Romanovskiy/service-worker.js",
+    "static/css/main.b4eae362.chunk.css.map": "/2019-2-Track-Frontend-M-Romanovskiy/static/css/main.b4eae362.chunk.css.map",
+    "static/media/logo.svg": "/2019-2-Track-Frontend-M-Romanovskiy/static/media/logo.795fb555.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.132eff57.js",
+    "static/js/2.273bc32e.chunk.js",
+    "static/css/main.b4eae362.chunk.css",
+    "static/js/main.7fe08ebb.chunk.js"
+  ]
+}
