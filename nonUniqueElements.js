@@ -25,6 +25,20 @@ nonUniqueElements([10, 9, 10, 10, 9, 8]) == [10, 9, 10, 10, 9]
  */
 
 export default function nonUniqueElements(data) {
+  let i = 0
+  let j = 0
+  while (i < data.length) {
+    for (j = 0; j < data.length; j++) {
+      if (i != j && data[i] == data[j]) {
+        break
+      }
+    }
+    if (j == data.length) {
+      data.splice(i, 1)
+    } else {
+      i++
+    }
+  }
   // your solution goes here
   return data
 }
