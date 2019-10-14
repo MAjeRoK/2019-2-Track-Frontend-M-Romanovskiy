@@ -13,5 +13,26 @@
  */
 
 export default function convertBytesToHuman(bytes) {
+  let out = "false"
+  if (typeof(bytes) == "number" && Number.isFinite(bytes) && Number.isInteger(bytes)) {
+    if (bytes < 0) {
+      return out
+    }
+    let i = 0
+    let str = "KMGTPEZY"
+    while (bytes >= 1024) {
+      i++
+      bytes = bytes / 1024
+    }
+    bytes = Math.round(bytes * 100) / 100
+    if (i > 0) {
+      out = String(bytes) + " " + str[i - 1] + "B"
+    } else {
+      out = String(bytes) + " " + "B"
+    }
+    return out
+  } else {
+    return out
+  }
   // your solution goes here
 }
